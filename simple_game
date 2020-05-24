@@ -1,0 +1,88 @@
+print('Hello!!!!')
+ans = input('Are you ready to play(Yes/No)? ')
+score = 0
+total_q = 10
+
+if ans.lower() == 'yes':
+    ans = input('1. What is best programming language? ')
+    if ans.lower() == 'python':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+
+    ans = input('2. What is 200+450-23? ')
+    if ans.lower() == '627':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('3. Currency of India? ')
+    if ans.lower() == 'rupees':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('4. Has India got the World cup in Cricket ever? ')
+    if ans.lower() == 'yes':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('5. What is costlier gold or platinum? ')
+    if ans.lower() == 'platinum':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('6. Which Monument is the symbolism of Showing love? ')
+    if ans.lower() == 'taj mahal':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('7. Traditional wear of women in India? ')
+    if ans.lower() == 'saree':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('8. Is JavaScript a scripting or programming language? ')
+    if ans.lower() == 'scripting':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('9. Can ML be used in checking spam emails? ')
+    if ans.lower() == 'yes':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+    ans = input('10. Full form of AI in field of computer science? ')
+    if ans.lower() == 'Artificial Intelligence':
+        score +=1
+        print('Correct')
+    else:
+        print('Incorrect')
+
+
+print('Thankyou for playing , your score is: ', score,"questions correct.")
+mark = (score/total_q) * 100
+
+print("score:", mark)
+print('GOODBYE!!!!')
+
+        
+        
+            
+
